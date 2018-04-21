@@ -24,7 +24,7 @@
 		} 
 		else 
 		{ 
-			echo "<script>alert('Incorrect email and password！');history.go(-1);</script>"; 
+			echo "<script>alert('Incorrect email or password！');history.go(-1);</script>"; 
 		} 
 	}
 	}
