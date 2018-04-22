@@ -100,6 +100,16 @@ select{
       <input type="text" class="searchTerm" placeholder="Search Your Plants Here.">
       <button type="submit"  name="searchplants" value="search" class="searchButton">Search</button>
 	</form>
+	   <?php
+	date_default_timezone_set("America/Denver");
+    echo "   ". date("Y/m/d") . "<br>";
+    echo "Today is " . date("l") ."<br>";
+	echo " " . date("h:i:sa")."<br>";
+$d1=strtotime("December 31");
+$d2=ceil(($d1-time())/60/60/24);
+echo "next watering：" . $d2 ." days。";
+
+?> 
    </div>
 </div>
 <div id="image" align="center">
