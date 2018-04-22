@@ -90,14 +90,16 @@ select{
 	<img src="logo.png" alt="logo" style="height:50px; width: auto; margin-left: 16%; margin-right: 20px; margin-top: 5px;">
 	<img src="title.png" alt="title" style="height:50px; width: auto; margin-top: 5px;">
 	<form method="post" action="logout.php">
-	<input type="submit" value="Log out" name="logout" style="height:40px; width: 200px; margin-left: 76%; margin-right: 20px; margin-top: 5px; background-color:'grey';">
+	<input type="submit" value="Log out" name="logout" style="color: white; height:40px; width: 200px; border-radius: 10px; margin-left: 76%; margin-right: 20px; margin-top: 47px; background-color:#454648;">
     </form>
 </div>
 <br>
 <div class="wrap">
    <div class="search">
+    <form>
       <input type="text" class="searchTerm" placeholder="Search Your Plants Here.">
-      <button type="submit"  class="searchButton">Search</button>
+      <button type="submit"  name="searchplants" value="search" class="searchButton">Search</button>
+	</form>
    </div>
 </div>
 <div id="image" align="center">
@@ -108,6 +110,6 @@ select{
 </div>
 	
 </div>
-<input type="button" value="Add Plants" style="width:200px; background-color:#454648; border-radius:5px; padding:7px 9px 7px 9px; color:white; margin-top:35px; margin-left: 63%;">
+<input type="submit" name="add plants" value="Add Plants" style="width:200px; background-color:#454648; border-radius:10px; padding:7px 9px 7px 9px; color:white; margin-top:35px; margin-left: 63%;">
 </body>
 </html>
