@@ -12,7 +12,7 @@
         { 
             if($psw == $psw_confirm) 
             { 
-                $conn = mysqli_connect("localhost","root","", "project", 3308);
+                $conn = mysqli_connect("localhost","root","root","project");
                 $sql = "select email from user_details where email = '$_POST[email]'";
                 $result = mysqli_query($conn, $sql); 
                 $num = mysqli_num_rows($result);

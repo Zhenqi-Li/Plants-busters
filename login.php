@@ -9,7 +9,7 @@
 	} 
 	else 
 	{
-		$conn = mysqli_connect("localhost","root","", "project", 3308);
+		$conn = mysqli_connect("localhost","root","root","project");
 		$sql = "select email,password from user_details where email = '$_POST[email]' and password = '$_POST[password]'"; 
 		$result = mysqli_query($conn, $sql);
 		$num = mysqli_num_rows($result);
@@ -18,7 +18,7 @@
 			// sucessful login
 			// write code to redirect to home page
 			echo "<script>alert('Login successfully！');</script>";
-			echo"<script type="."\""."text/javascript"."\"".">"."window.location="."\""."content1.html"."\""."</script>";
+			echo"<script type="."\""."text/javascript"."\"".">"."window.location="."\""."list.php"."\""."</script>";
 			$row = mysql_fetch_array($result);
 			echo $row[0];
 		} 
