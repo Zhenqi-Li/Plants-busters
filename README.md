@@ -11,7 +11,7 @@ Motivation:  Many people think taking care of plants  is easy, but it is actuall
 
 how to build the environment is in the Milestone7.
 the test file and result is in the Back-end.
-the Back-end is for all he php file, the sql file and the test file.
+the Back-end is for all the php files, the sql files and the test files.
 the Front-end is for the HTML and CSS files and the image we need.
 the Meeting-Minutes is for the meeting logs.
 the master is for the Milestones.
