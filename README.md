@@ -15,3 +15,5 @@ the Back-end is for all the php files, the sql files and the test files.
 the Front-end is for the HTML and CSS files and the image we need.
 the Meeting-Minutes is for the meeting logs.
 the master is for the Milestones.
+
+All the version is the latest version and will be the final code.
